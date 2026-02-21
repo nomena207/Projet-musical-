@@ -1,5 +1,4 @@
-<style>
-       * {
+       {
            margin: 0;
            padding: 0;
            box-sizing: border-box;
@@ -424,7 +423,7 @@
        footer p {
        color: #e0e0e0;
        }
-   </style>s-grid {
+       s-grid {
                grid-template-columns: 1fr;
            }
 
@@ -459,5 +458,4 @@
                margin-right: -1rem;
                padding: 0 1rem;
            }
-       }
-   </style>
+       
