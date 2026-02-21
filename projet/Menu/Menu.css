@@ -10,6 +10,8 @@
            color: #e0e0e0;
            line-height: 1.6;
            min-height: 100vh;
+           margin: 10px;
+           padding: 20px;
        }
 
        header {
@@ -177,7 +179,7 @@
 
        .instrument-card {
            background: linear-gradient(135deg, rgba(30, 58, 138, 0.5), rgba(76, 29, 149, 0.5));
-           padding: 2rem;
+           padding: 4rem;
            border-radius: 12px;
            border: 2px solid rgba(168, 85, 247, 0.4);
            transition: all 0.3s ease;
