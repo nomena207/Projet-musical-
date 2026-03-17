@@ -598,18 +598,28 @@
       letter-spacing: 0.08em;
       text-transform: uppercase;
     }
-    .btn-back {
+.btn-container {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.btn-back {
     display: inline-block;
-    background: linear-gradient(135deg, #1e3a8a, #be185d);
+    background: linear-gradient(135deg, #4c1d95, #7c3aed);
     color: #fff;
-    padding: 0.8rem 2rem;
+    padding: 0.5rem 1.2rem;
     border-radius: 8px;
     text-decoration: none;
+    font-size: 1rem;
     font-weight: 600;
-    font-size: clamp(0.9rem, 2vw, 1.1rem);
-    margin-top: 2rem;
     transition: all 0.3s ease;
-    border: 2px solid transparent;
+    border: 2px solid rgba(168, 85, 247, 0.4);
+}
+
+.btn-back:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(124, 58, 237, 0.5);
+    background: linear-gradient(135deg, #7c3aed, #4c1d95);
 }
 
 .btn-back:hover {
